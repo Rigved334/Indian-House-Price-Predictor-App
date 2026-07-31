@@ -17,7 +17,7 @@ from scipy.stats import randint
 from scipy import stats
 import joblib
 
-housing = pd.read_csv("indian_house_prices.csv")
+housing = pd.read_csv(r"C:\Users\Rigved Bhondve\OneDrive\Desktop\ML\Indian House Prices\data\raw\Indian_house_prices.csv")
 
 housing["area_cat"] = pd.cut(housing["Area of the house(excluding basement)"], bins=[0, 750, 1500, 2250, 3000, np.inf], labels=[1, 2, 3, 4, 5])
 
