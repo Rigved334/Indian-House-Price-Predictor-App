@@ -1,0 +1,17 @@
+[project]
+name = "indian-house-prices"
+version = "0.1.0"
+description = "Predicts the Price of Houses based on Attributes"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "joblib>=1.5.3",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.60.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "Indian House Prices",
+]
