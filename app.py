@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("Indian_house_prices.pkl")
+model = joblib.load(r"C:\Users\Rigved Bhondve\OneDrive\Desktop\ML\Indian House Prices\models\Indian_house_prices.pkl")
 
 st.title("Indian House Price Predictor")
 
